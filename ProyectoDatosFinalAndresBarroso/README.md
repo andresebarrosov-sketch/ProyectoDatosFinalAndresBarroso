@@ -4,11 +4,9 @@
 
 Proyecto académico de ciencia de datos desarrollado para la asignatura **Fundamentos de Ciencia de Datos**. Se estudian registros de siniestros viales publicados en el portal nacional de datos abiertos y se comparan tres modelos de clasificación para distinguir registros etiquetados como `LESIONADO` y `MUERTO`.
 
-**Autor:** Andrés Barroso  
+**Autor:** Andrés Eduardo Barroso Velásquez 
 **Metodología:** CRISP-DM  
 **Lenguaje y herramientas:** Python, Google Colab, pandas, scikit-learn, Streamlit.
-
-> Si el trabajo fue realizado en grupo, agrega los nombres de los demás integrantes antes de publicar el repositorio.
 
 ## 1. Fuente de datos
 
@@ -63,15 +61,3 @@ La ejecución guardada en el notebook registró 9 duplicados exactos. Luego de e
 | Árbol de decisión | 0,670 | 0,144 | 0,364 | 0,206 | 0,499 | 0,225 |
 
 **Modelo seleccionado según validación cruzada: Random Forest**, por obtener el mayor F1 promedio para `MUERTO` (0,310). En el conjunto de prueba obtuvo F1=0,316, Recall=0,805 y Precision=0,197 para esa clase. Esto significa que detecta una proporción alta de los casos `MUERTO`, pero también genera falsas alarmas. La regresión logística tuvo F1 de prueba 0,346, pero la prueba no se utiliza para seleccionar el modelo.
-
-Las métricas corresponden a la ejecución guardada en el notebook. Ejecuta el notebook completo para reproducir los resultados y generar el artefacto final seleccionado por validación cruzada.
-
-## 6. Limitaciones
-
-- La clase `MUERTO` está subrepresentada (7,24 % de los registros modelados).
-- La precisión para `MUERTO` es baja; las predicciones positivas incluyen falsos positivos.
-- Los registros pueden corresponder a víctimas diferentes de un mismo siniestro; por eso se agrupan por `IPAT`.
-- Debe verificarse en el diccionario de datos el significado y consistencia de `IPAT` y `CONDICION DE LA VICTIMA`.
-- Los valores atípicos geográficos se reportan para revisión y no se eliminan automáticamente.
-- La cobertura temporal, la calidad y las definiciones dependen del registro administrativo publicado.
-- Se requiere validación con datos nuevos y revisión por la entidad responsable antes de cualquier aplicación práctica.
