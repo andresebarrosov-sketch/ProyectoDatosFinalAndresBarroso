@@ -5,7 +5,9 @@
 Proyecto académico de ciencia de datos desarrollado para la asignatura **Fundamentos de Ciencia de Datos**. Se estudian registros de siniestros viales publicados en el portal nacional de datos abiertos y se comparan tres modelos de clasificación para distinguir registros etiquetados como `LESIONADO` y `MUERTO`.
 
 **Autor:** Andrés Eduardo Barroso Velásquez 
+
 **Metodología:** CRISP-DM  
+
 **Lenguaje y herramientas:** Python, Google Colab, pandas, scikit-learn, Streamlit.
 
 ## 1. Fuente de datos
