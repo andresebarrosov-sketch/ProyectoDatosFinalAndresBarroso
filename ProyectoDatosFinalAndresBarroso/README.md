@@ -63,3 +63,7 @@ La ejecución guardada en el notebook registró 9 duplicados exactos. Luego de e
 | Árbol de decisión | 0,670 | 0,144 | 0,364 | 0,206 | 0,499 | 0,225 |
 
 **Modelo seleccionado según validación cruzada: Random Forest**, por obtener el mayor F1 promedio para `MUERTO` (0,310). En el conjunto de prueba obtuvo F1=0,316, Recall=0,805 y Precision=0,197 para esa clase. Esto significa que detecta una proporción alta de los casos `MUERTO`, pero también genera falsas alarmas. La regresión logística tuvo F1 de prueba 0,346, pero la prueba no se utiliza para seleccionar el modelo.
+
+## 6. Link del despliegue (Streamlit)
+
+https://proyectodatosfinalandresbarroso-6bq8pwhrvdttuaqywdjcfx.streamlit.app/
