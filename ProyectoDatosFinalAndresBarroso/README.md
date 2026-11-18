@@ -15,7 +15,6 @@ Proyecto académico de ciencia de datos desarrollado para la asignatura **Fundam
 - **Dataset:** [Siniestros Viales Palmira — datos.gov.co](https://www.datos.gov.co/w/sjpx-eqfp/dneh-mcp2)
 - **Entidad proveedora:** Alcaldía de Palmira, Valle del Cauca.
 - **Archivo utilizado:** `Siniestros_Viales_Palmira_20261026.csv`.
-- **Fecha de referencia indicada en el nombre del archivo:** 26 de octubre de 2026. Confirma y registra la fecha efectiva de descarga en la entrega si fue diferente.
 
 El CSV incluido en este repositorio contiene 2.834 filas y 19 columnas.
 
